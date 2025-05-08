@@ -32,10 +32,10 @@
 #include "combos.dtsi"
 
 // Alpha layer: uncomment desired, comment the others
-#include "L1_colemak-dh.dtsi"
+/* #include "L1_colemak-dh.dtsi" */
 // #include "L1_colemak.dtsi"
 // #include "L1_dvorak.dtsi"
-// #include "L1_qwerty.dtsi"
+#include "L1_qwerty.dtsi"
 
 // Other layers
 #include "L2.dtsi"
