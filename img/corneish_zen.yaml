@@ -50,11 +50,11 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - $$mdi:skip-previous$$
-  - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
-  - $$mdi:skip-next$$
-  - $$mdi:volume-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - (
+  - )
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '6', s: ^}
@@ -93,11 +93,11 @@ layers:
   - F3
   - F4
   - F5
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:skip-previous$$
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - $$mdi:skip-next$$
+  - $$mdi:volume-off$$
   - $$mdi:power-standby$$
   - {t: '$$mdi:backup-restore$$', h: '$$mdi:progress-download$$', type: bootloader}
   - F6
