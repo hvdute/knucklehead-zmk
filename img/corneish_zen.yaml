@@ -23,7 +23,7 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-command$$'}
   - {t: K, h: '$$mdi:apple-keyboard-option$$'}
   - {t: L, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '''', s: '"'}
+  - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: Fn, h: '$$mdi:close-box$$'}
   - Z
