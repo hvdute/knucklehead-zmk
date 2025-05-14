@@ -24,8 +24,8 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-option$$'}
   - {t: L, h: '$$mdi:apple-keyboard-control$$'}
   - {t: ;, s: ':'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: Fn, h: '$$mdi:close-box$$'}
+  - {t: '''', s: '"'}
+  - {t: '$$mdi:keyboard-return$$', h: '2'}
   - Z
   - X
   - C
@@ -35,14 +35,14 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: '''', s: '"'}
+  - {t: /, s: '?'}
   - {t: Fn, h: '$$mdi:close-box$$'}
   - $$mdi:keyboard-tab$$
   - {t: L2, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L2, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: '`', s: '~'}
+  - Ctl+B
   L2:
   - '&studio_unlock'
   - {t: '1', s: '!'}
@@ -50,7 +50,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '`', s: '~'}
   - (
   - )
   - {t: '[', s: '{'}
