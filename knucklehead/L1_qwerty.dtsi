@@ -26,3 +26,5 @@
     };
   };
 };
+
+// FIXME: Fn+Esc to soft reboot, init bootloader does not work anymore
