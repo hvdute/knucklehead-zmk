@@ -611,15 +611,15 @@ path.combo {
 <text x="0" y="0" class="key tap">;</text>
 <text x="0" y="-34" class="key shifted">:</text>
 </g>
-<g transform="translate(1160, 150)" class="key keypos-23">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<text x="0" y="0" class="key tap">&#x27;</text>
-<text x="0" y="-34" class="key shifted">&quot;</text>
+<g transform="translate(1160, 150)" class="key enter keypos-23">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-11" y="-11" height="22" width="22.0" class="key enter tap glyph mdi:keyboard-return"/>
 </g>
 <g transform="translate(40, 230)" class="key keypos-24">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
-<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:keyboard-return"/>
-<text x="0" y="34" class="key hold">2</text>
+<a href="#Fn">
+<text x="0" y="0" class="key tap layer-activator">Fn</text>
+</a><use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-8" y="18" height="16" width="16.0" class="key hold glyph mdi:close-box"/>
 </g>
 <g transform="translate(120, 230)" class="key keypos-25">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
@@ -782,14 +782,18 @@ path.combo {
 <text x="1000" y="159" class="combo shifted">|</text>
 </g>
 <g class="combo combopos-18">
+<rect rx="4" ry="4" x="865" y="110" width="30" height="30" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="869" y="114" height="22" width="22.0" class="combo tap glyph mdi:keyboard-esc"/>
+</g>
+<g class="combo combopos-19">
 <rect rx="4" ry="4" x="785" y="40" width="30" height="30" class="combo"/>
 <use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="789" y="44" height="22" width="22.0" class="combo tap glyph mdi:play-pause"/>
 </g>
-<g class="combo combopos-19">
+<g class="combo combopos-20">
 <rect rx="4" ry="4" x="385" y="120" width="30" height="30" class="combo"/>
 <use href="#mdi:star-four-points" xlink:href="#mdi:star-four-points" x="389" y="124" height="22" width="22.0" class="combo tap glyph mdi:star-four-points"/>
 </g>
-<g class="combo combopos-20">
+<g class="combo combopos-21">
 <rect rx="4" ry="4" x="785" y="120" width="30" height="30" class="combo"/>
 <use href="#mdi:star-four-points" xlink:href="#mdi:star-four-points" x="789" y="124" height="22" width="22.0" class="combo tap glyph mdi:star-four-points"/>
 </g>
@@ -907,9 +911,10 @@ path.combo {
 <use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:arrow-right-bold"/>
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-8" y="18" height="16" width="16.0" class="key hold glyph mdi:apple-keyboard-control"/>
 </g>
-<g transform="translate(1080, 150)" class="key trans keypos-22">
-<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-11" y="-11" height="22" width="22.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(1080, 150)" class="key keypos-22">
+<rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key"/>
+<text x="0" y="0" class="key tap">&#x27;</text>
+<text x="0" y="-34" class="key shifted">&quot;</text>
 </g>
 <g transform="translate(1160, 150)" class="key enter keypos-23">
 <rect rx="4" ry="4" x="-38" y="-38" width="77" height="77" class="key enter"/>
@@ -1070,14 +1075,18 @@ path.combo {
 <text x="1000" y="159" class="combo shifted">|</text>
 </g>
 <g class="combo combopos-18">
+<rect rx="4" ry="4" x="865" y="110" width="30" height="30" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="869" y="114" height="22" width="22.0" class="combo tap glyph mdi:keyboard-esc"/>
+</g>
+<g class="combo combopos-19">
 <rect rx="4" ry="4" x="785" y="40" width="30" height="30" class="combo"/>
 <use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="789" y="44" height="22" width="22.0" class="combo tap glyph mdi:play-pause"/>
 </g>
-<g class="combo combopos-19">
+<g class="combo combopos-20">
 <rect rx="4" ry="4" x="385" y="120" width="30" height="30" class="combo"/>
 <use href="#mdi:star-four-points" xlink:href="#mdi:star-four-points" x="389" y="124" height="22" width="22.0" class="combo tap glyph mdi:star-four-points"/>
 </g>
-<g class="combo combopos-20">
+<g class="combo combopos-21">
 <rect rx="4" ry="4" x="785" y="120" width="30" height="30" class="combo"/>
 <use href="#mdi:star-four-points" xlink:href="#mdi:star-four-points" x="789" y="124" height="22" width="22.0" class="combo tap glyph mdi:star-four-points"/>
 </g>
@@ -1309,6 +1318,10 @@ path.combo {
 <text x="1000" y="159" class="combo shifted">|</text>
 </g>
 <g class="combo combopos-8">
+<rect rx="4" ry="4" x="865" y="110" width="30" height="30" class="combo"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="869" y="114" height="22" width="22.0" class="combo tap glyph mdi:keyboard-esc"/>
+</g>
+<g class="combo combopos-9">
 <path d="M240,-3 h-114 a6.0,6.0 0 0 0 -6.0,6.0 v40" class="combo"/>
 <path d="M240,-3 h-34 a6.0,6.0 0 0 0 -6.0,6.0 v20" class="combo"/>
 <path d="M240,-3 h34 a6.0,6.0 0 0 1 6.0,6.0 v10" class="combo"/>
@@ -1316,40 +1329,40 @@ path.combo {
 <rect rx="4" ry="4" x="225" y="-18" width="30" height="30" class="combo"/>
 <use href="#mdi:bluetooth-off" xlink:href="#mdi:bluetooth-off" x="229" y="-14" height="22" width="22.0" class="combo tap glyph mdi:bluetooth-off"/>
 </g>
-<g class="combo combopos-9">
+<g class="combo combopos-10">
 <rect rx="4" ry="4" x="105" y="95" width="30" height="30" class="combo"/>
 <text x="120" y="121" class="combo hold">1</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="112" y="99" height="16" width="16.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
-<g class="combo combopos-10">
+<g class="combo combopos-11">
 <rect rx="4" ry="4" x="185" y="75" width="30" height="30" class="combo"/>
 <text x="200" y="101" class="combo hold">2</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="192" y="79" height="16" width="16.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
-<g class="combo combopos-11">
+<g class="combo combopos-12">
 <rect rx="4" ry="4" x="265" y="65" width="30" height="30" class="combo"/>
 <text x="280" y="91" class="combo hold">3</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="272" y="69" height="16" width="16.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
-<g class="combo combopos-12">
+<g class="combo combopos-13">
 <rect rx="4" ry="4" x="345" y="75" width="30" height="30" class="combo"/>
 <text x="360" y="101" class="combo hold">4</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="352" y="79" height="16" width="16.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
-<g class="combo combopos-13">
+<g class="combo combopos-14">
 <rect rx="4" ry="4" x="425" y="85" width="30" height="30" class="combo"/>
 <text x="440" y="111" class="combo hold">5</text>
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="432" y="89" height="16" width="16.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
-<g class="combo combopos-14">
+<g class="combo combopos-15">
 <rect rx="4" ry="4" x="785" y="40" width="30" height="30" class="combo"/>
 <use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="789" y="44" height="22" width="22.0" class="combo tap glyph mdi:play-pause"/>
 </g>
-<g class="combo combopos-15">
+<g class="combo combopos-16">
 <rect rx="4" ry="4" x="385" y="120" width="30" height="30" class="combo"/>
 <use href="#mdi:star-four-points" xlink:href="#mdi:star-four-points" x="389" y="124" height="22" width="22.0" class="combo tap glyph mdi:star-four-points"/>
 </g>
-<g class="combo combopos-16">
+<g class="combo combopos-17">
 <rect rx="4" ry="4" x="785" y="120" width="30" height="30" class="combo"/>
 <use href="#mdi:star-four-points" xlink:href="#mdi:star-four-points" x="789" y="124" height="22" width="22.0" class="combo tap glyph mdi:star-four-points"/>
 </g>
