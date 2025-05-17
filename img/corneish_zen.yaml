@@ -188,11 +188,11 @@ combos:
   k: $$mdi:keyboard-esc$$
   l: [L1, L2, Fn]
 - p: [30, 31]
-  k: $$mdi:monitor-screenshot$$
-  l: [L1, L2, Fn]
+  k: ''
+  l: [Fn]
 - p: [31, 32]
-  k: $$mdi:selection-drag$$
-  l: [L1, L2, Fn]
+  k: ''
+  l: [Fn]
 - p: [1, 2, 3, 4]
   k: $$mdi:bluetooth-off$$
   l: [Fn]
