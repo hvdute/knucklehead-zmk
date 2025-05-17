@@ -17,10 +17,12 @@
 #define TMUX_PREFIX LC(B)
 
 // macos screenshots
-// fullscreen to clipboard
-#define F_SCRSHOT LC(LCMD(LS(NUMBER_3)))
-// selection to clipboard
-#define S_SCRSHOT LC(LCMD(LS(NUMBER_4)))
+// This will properly create the required CMD+CTRL+SHIFT+3/4 shortcuts that match macOS's system defaults. The `&kp` syntax ensures all modifiers are pressed simultaneously before the number key is pressed.
+// Full screen to clipboard
+#define F_SCRSHOT &kp LCMD &kp LCTRL &kp LSHIFT &kp N3
+
+// Selection to clipboard 
+#define S_SCRSHOT &kp LCMD &kp LCTRL &kp LSHIFT &kp N4
 
 // Behaviors Constants
 #define TAPPING_TERM_MS 280
