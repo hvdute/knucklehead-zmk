@@ -187,6 +187,12 @@ combos:
 - p: [19, 20]
   k: $$mdi:keyboard-esc$$
   l: [L1, L2, Fn]
+- p: [30, 31]
+  k: Ctl+LCMD(LS(3))
+  l: [Fn]
+- p: [31, 32]
+  k: Ctl+LCMD(LS(4))
+  l: [Fn]
 - p: [1, 2, 3, 4]
   k: $$mdi:bluetooth-off$$
   l: [Fn]
