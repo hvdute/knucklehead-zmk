@@ -795,14 +795,22 @@ path.combo {
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="869" y="114" height="22" width="22.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 <g class="combo combopos-19">
+<rect rx="4" ry="4" x="785" y="200" width="30" height="30" class="combo"/>
+<use href="#mdi:monitor-screenshot" xlink:href="#mdi:monitor-screenshot" x="789" y="204" height="22" width="22.0" class="combo tap glyph mdi:monitor-screenshot"/>
+</g>
+<g class="combo combopos-20">
+<rect rx="4" ry="4" x="865" y="190" width="30" height="30" class="combo"/>
+<use href="#mdi:selection-drag" xlink:href="#mdi:selection-drag" x="869" y="194" height="22" width="22.0" class="combo tap glyph mdi:selection-drag"/>
+</g>
+<g class="combo combopos-21">
 <rect rx="4" ry="4" x="785" y="40" width="30" height="30" class="combo"/>
 <use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="789" y="44" height="22" width="22.0" class="combo tap glyph mdi:play-pause"/>
 </g>
-<g class="combo combopos-20">
+<g class="combo combopos-22">
 <rect rx="4" ry="4" x="385" y="120" width="30" height="30" class="combo"/>
 <use href="#mdi:star-four-points" xlink:href="#mdi:star-four-points" x="389" y="124" height="22" width="22.0" class="combo tap glyph mdi:star-four-points"/>
 </g>
-<g class="combo combopos-21">
+<g class="combo combopos-23">
 <rect rx="4" ry="4" x="785" y="120" width="30" height="30" class="combo"/>
 <use href="#mdi:star-four-points" xlink:href="#mdi:star-four-points" x="789" y="124" height="22" width="22.0" class="combo tap glyph mdi:star-four-points"/>
 </g>
@@ -1088,14 +1096,22 @@ path.combo {
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="869" y="114" height="22" width="22.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
 <g class="combo combopos-19">
+<rect rx="4" ry="4" x="785" y="200" width="30" height="30" class="combo"/>
+<use href="#mdi:monitor-screenshot" xlink:href="#mdi:monitor-screenshot" x="789" y="204" height="22" width="22.0" class="combo tap glyph mdi:monitor-screenshot"/>
+</g>
+<g class="combo combopos-20">
+<rect rx="4" ry="4" x="865" y="190" width="30" height="30" class="combo"/>
+<use href="#mdi:selection-drag" xlink:href="#mdi:selection-drag" x="869" y="194" height="22" width="22.0" class="combo tap glyph mdi:selection-drag"/>
+</g>
+<g class="combo combopos-21">
 <rect rx="4" ry="4" x="785" y="40" width="30" height="30" class="combo"/>
 <use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="789" y="44" height="22" width="22.0" class="combo tap glyph mdi:play-pause"/>
 </g>
-<g class="combo combopos-20">
+<g class="combo combopos-22">
 <rect rx="4" ry="4" x="385" y="120" width="30" height="30" class="combo"/>
 <use href="#mdi:star-four-points" xlink:href="#mdi:star-four-points" x="389" y="124" height="22" width="22.0" class="combo tap glyph mdi:star-four-points"/>
 </g>
-<g class="combo combopos-21">
+<g class="combo combopos-23">
 <rect rx="4" ry="4" x="785" y="120" width="30" height="30" class="combo"/>
 <use href="#mdi:star-four-points" xlink:href="#mdi:star-four-points" x="789" y="124" height="22" width="22.0" class="combo tap glyph mdi:star-four-points"/>
 </g>
