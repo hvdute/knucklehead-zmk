@@ -225,6 +225,13 @@ parse_config:
     RCMD: $$mdi:apple-keyboard-command$$
     LS(LC(LALT)): $$mdi:triangle$$ # Meh
 
+    # macos screenshots (check base.dtsi)
+    LC(LCMD(LS(NUMBER_3))): $$mdi:monitor-screenshot$$ # fullscreen
+    LC(LCMD(LS(NUMBER_4))): $$mdi:selection-drag$$ # selection
+
+    # tmux prefix
+    LC(B): $$mdi:alpha-b-box$$ #
+
     # Arrows
     UP: $$mdi:arrow-up-bold$$
     DOWN: $$mdi:arrow-down-bold$$
