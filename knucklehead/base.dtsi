@@ -16,6 +16,12 @@
 // tmux prefix key
 #define TMUX_PREFIX LC(B)
 
+// macos screenshots
+// fullscreen to clipboard
+#define F_SCRSHOT LC(LCMD(LS(NUMBER_3)))
+// selection to clipboard
+#define S_SCRSHOT LC(LCMD(LS(NUMBER_4)))
+
 // Behaviors Constants
 #define TAPPING_TERM_MS 280
 #define QUICK_TAP_MS 175
