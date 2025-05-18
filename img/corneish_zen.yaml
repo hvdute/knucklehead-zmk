@@ -187,11 +187,14 @@ combos:
 - p: [19, 20]
   k: $$mdi:keyboard-esc$$
   l: [L1, L2, Fn]
+- p: [21, 22]
+  k: '"'
+  l: [L1, L2]
 - p: [30, 31]
-  k: ''
+  k: F SCRSHOT
   l: [Fn]
 - p: [31, 32]
-  k: ''
+  k: LCMD LC(LS(4))
   l: [Fn]
 - p: [1, 2, 3, 4]
   k: $$mdi:bluetooth-off$$
