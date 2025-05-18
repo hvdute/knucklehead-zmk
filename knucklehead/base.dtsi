@@ -19,10 +19,10 @@
 // macos screenshots
 // This will properly create the required CMD+CTRL+SHIFT+3/4 shortcuts that match macOS's system defaults. The `&kp` syntax ensures all modifiers are pressed simultaneously before the number key is pressed.
 // Full screen to clipboard
-#define S_SCRSHOT LCMD LC(LS(NUMBER_3))
+#define S_SCRSHOT &kp LCMD &kp LC(LS(NUMBER_3))
 
 // Selection to clipboard 
-#define S_SCRSHOT LCMD LC(LS(NUMBER_4))
+#define S_SCRSHOT &kp LCMD &kp LC(LS(NUMBER_4))
 
 // Behaviors Constants
 #define TAPPING_TERM_MS 280
