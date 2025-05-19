@@ -191,10 +191,10 @@ combos:
   k: '"'
   l: [L1, L2]
 - p: [30, 31]
-  k: F SCRSHOT
+  k: $$mdi:selection-drag$$
   l: [Fn]
 - p: [31, 32]
-  k: LCMD LC(LS(4))
+  k: $$mdi:monitor-screenshot$$
   l: [Fn]
 - p: [1, 2, 3, 4]
   k: $$mdi:bluetooth-off$$
