@@ -226,8 +226,8 @@ parse_config:
     LS(LC(LALT)): $$mdi:triangle$$ # Meh
 
     # macos screenshots (check base.dtsi)
-    LC(LCMD(LS(NUMBER_3))): $$mdi:monitor-screenshot$$ # fullscreen
-    LC(LCMD(LS(NUMBER_4))): $$mdi:selection-drag$$ # selection
+    LC(LS(N3)): $$mdi:monitor-screenshot$$ # fullscreen
+    LC(LS(N4)): $$mdi:selection-drag$$ # selection
 
     # tmux prefix
     LC(B): $$mdi:alpha-b-box$$ #
