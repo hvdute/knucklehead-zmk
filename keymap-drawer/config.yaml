@@ -7,7 +7,7 @@ parse_config:
 
   raw_binding_map:
     # Layers
-    "&smart_num LSHFT":
+    "&smart_num LSHFT 0":
       shifted: $$mdi:alpha-w-box$$
       tap: $$mdi:apple-keyboard-shift$$
       hold: $$mdi:gesture-tap-hold$$
