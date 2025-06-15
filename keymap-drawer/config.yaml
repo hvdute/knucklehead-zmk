@@ -7,9 +7,9 @@ parse_config:
 
   raw_binding_map:
     # Layers
-    "&smart_num L2 0":
+    "&smart_num LSHFT":
       shifted: $$mdi:alpha-w-box$$
-      tap: L2
+      tap: $$mdi:apple-keyboard-shift$$
       hold: $$mdi:gesture-tap-hold$$
     "&csl Fn":
       tap: Fn
@@ -334,11 +334,11 @@ draw_config:
   key_h: 80
 
   # keys border radius
-  key_rx: 4
-  key_ry: 4
+  key_rx: 5
+  key_ry: 5
 
   # key labels line spacing for multi-line labels
-  line_spacing: 1
+  line_spacing: 5
 
   # combo box dimensions
   combo_w: 30
@@ -348,8 +348,8 @@ draw_config:
   small_pad: 4
 
   # Padding between keys
-  inner_pad_w: 1.5
-  inner_pad_h: 1.5
+  inner_pad_w: 2.5
+  inner_pad_h: 2.5
 
   # padding between layers
   outer_pad_w: 0
