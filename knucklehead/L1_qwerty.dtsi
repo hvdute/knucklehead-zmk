@@ -20,7 +20,7 @@
     &csl Fn         &kp Z           &kp X           &kp C           &kp V           &kp B               &kp N           &kp M           &kp COMMA       &kp DOT         &kp SLASH       &csl Fn
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤   ├───────────────├───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
 //                                                 │36             │37             │38             │   │39             │40             │41             │
-                                                    &kp TAB         &smart_num L2 0 &mt LSHFT SPACE     &lt L2 ENTER    &smart_shift    &kp TMUX_PREFIX
+                                                    &kp TAB        &smart_num LSHFT &lt L2 SPACE        &lt L2 ENTER    &smart_shift    &kp TMUX_PREFIX
 //                                                 ╰───────────────┴───────────────┴───────────────╯   ╰───────────────┴───────────────┴───────────────╯
       >;
     };
