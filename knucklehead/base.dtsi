@@ -14,7 +14,7 @@
 #define MEH LS(LC(LALT))
 
 // tmux prefix key
-#define TMUX_PREFIX LC(B)
+#define TMUX LC(B)
 
 // macos screenshots
 // This will properly create the required CTRL+SHIFT+3/4 shortcuts that match macOS's system defaults.
