@@ -799,8 +799,10 @@ path.combo {
 <text x="1040" y="140" class="combo tap">&quot;</text>
 </g>
 <g class="combo combopos-20">
-<rect rx="4" ry="4" x="785" y="40" width="30" height="30" class="combo"/>
-<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="789" y="44" height="22" width="22.0" class="combo tap glyph mdi:play-pause"/>
+<path d="M840,50 l-54,7" class="combo"/>
+<path d="M840,50 l54,-7" class="combo"/>
+<rect rx="4" ry="4" x="825" y="35" width="30" height="30" class="combo"/>
+<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="829" y="39" height="22" width="22.0" class="combo tap glyph mdi:play-pause"/>
 </g>
 <g class="combo combopos-21">
 <rect rx="4" ry="4" x="385" y="120" width="30" height="30" class="combo"/>
@@ -1097,8 +1099,10 @@ path.combo {
 <text x="1040" y="140" class="combo tap">&quot;</text>
 </g>
 <g class="combo combopos-20">
-<rect rx="4" ry="4" x="785" y="40" width="30" height="30" class="combo"/>
-<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="789" y="44" height="22" width="22.0" class="combo tap glyph mdi:play-pause"/>
+<path d="M840,50 l-54,7" class="combo"/>
+<path d="M840,50 l54,-7" class="combo"/>
+<rect rx="4" ry="4" x="825" y="35" width="30" height="30" class="combo"/>
+<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="829" y="39" height="22" width="22.0" class="combo tap glyph mdi:play-pause"/>
 </g>
 <g class="combo combopos-21">
 <rect rx="4" ry="4" x="385" y="120" width="30" height="30" class="combo"/>
@@ -1381,8 +1385,10 @@ path.combo {
 <use href="#mdi:bluetooth-connect" xlink:href="#mdi:bluetooth-connect" x="432" y="89" height="16" width="16.0" class="combo shifted glyph mdi:bluetooth-connect"/>
 </g>
 <g class="combo combopos-17">
-<rect rx="4" ry="4" x="785" y="40" width="30" height="30" class="combo"/>
-<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="789" y="44" height="22" width="22.0" class="combo tap glyph mdi:play-pause"/>
+<path d="M840,50 l-54,7" class="combo"/>
+<path d="M840,50 l54,-7" class="combo"/>
+<rect rx="4" ry="4" x="825" y="35" width="30" height="30" class="combo"/>
+<use href="#mdi:play-pause" xlink:href="#mdi:play-pause" x="829" y="39" height="22" width="22.0" class="combo tap glyph mdi:play-pause"/>
 </g>
 <g class="combo combopos-18">
 <rect rx="4" ry="4" x="385" y="120" width="30" height="30" class="combo"/>
