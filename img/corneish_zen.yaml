@@ -66,8 +66,8 @@ layers:
   - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -130,39 +130,15 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [1, 13]
-  k: '!'
-  l: [L1, L2]
-- p: [2, 14]
-  k: '@'
-  l: [L1, L2]
-- p: [3, 15]
-  k: '#'
-  l: [L1, L2]
-- p: [4, 16]
-  k: $
-  l: [L1, L2]
-- p: [5, 17]
-  k: '%'
-  l: [L1, L2]
-- p: [13, 25]
-  k: ^
-  l: [L1, L2]
-- p: [14, 26]
-  k: '&'
-  l: [L1, L2]
-- p: [15, 27]
-  k: '*'
-  l: [L1, L2]
 - p: [3, 16]
   k: {t: '[', s: '{'}
-  l: [L1, L2, Fn]
+  l: [L1, L2]
 - p: [4, 17]
   k: {h: \, s: '|'}
-  l: [L1, L2, Fn]
+  l: [L1, L2]
 - p: [19, 8]
   k: {t: ']', s: '}'}
-  l: [L1, L2, Fn]
+  l: [L1, L2]
 - p: [6, 18]
   k: $$mdi:transfer-up$$
   l: [L1, L2, Fn]
@@ -201,3 +177,5 @@ combos:
 - p: [6, 7, 8]
   k: $$mdi:play-pause$$
   l: [L1, L2, Fn]
+  a: top
+  o: 0.03
