@@ -300,6 +300,9 @@ parse_config:
     combo_bt_clear:
       align: top
       offset: 0.03
+    combo_play:
+      align: top
+      offset: 0.03
     combo_mute:
       align: top
       offset: 0.15
