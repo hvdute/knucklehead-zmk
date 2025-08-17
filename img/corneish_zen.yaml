@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corneish_zen, layout_name: default_transform}
 layers:
   L1:
-  - $$mdi:keyboard-tab$$
+  - {t: '`', s: '~'}
   - Q
   - W
   - E
@@ -38,11 +38,11 @@ layers:
   - {t: /, s: '?'}
   - {t: Fn, h: '$$mdi:close-box$$'}
   - $$mdi:keyboard-tab$$
-  - {t: L2, h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: '$$mdi:keyboard-space$$', h: L2}
   - {t: '$$mdi:keyboard-return$$', h: L2}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
-  - $$mdi:alpha-b-box$$
+  - {t: '$$mdi:alpha-b-box$$', h: '$$mdi:alpha-b-box$$'}
   L2:
   - '&studio_unlock'
   - {t: '1', s: '!'}
@@ -50,11 +50,11 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {t: '`', s: '~'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - (
   - )
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: '-', s: _}
+  - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '6', s: ^}
@@ -66,8 +66,8 @@ layers:
   - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
   - {t: '`', s: '~'}
-  - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -82,8 +82,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:close-box$$', h: L2}
-  - {t: '$$mdi:keyboard-return$$', h: L2, type: held}
+  - {t: '$$mdi:close-box$$', h: L2, type: held}
+  - {t: '$$mdi:keyboard-return$$', h: L2, type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
@@ -130,66 +130,24 @@ layers:
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [1, 13]
-  k: '!'
+- p: [3, 16]
+  k: {t: '[', s: '{'}
   l: [L1, L2]
-- p: [2, 14]
-  k: '@'
+- p: [4, 17]
+  k: {h: \, s: '|'}
   l: [L1, L2]
-- p: [3, 15]
-  k: '#'
+- p: [19, 8]
+  k: {t: ']', s: '}'}
   l: [L1, L2]
-- p: [4, 16]
-  k: $
-  l: [L1, L2]
-- p: [5, 17]
-  k: '%'
-  l: [L1, L2]
-- p: [13, 25]
-  k: ^
-  l: [L1, L2]
-- p: [14, 26]
-  k: '&'
-  l: [L1, L2]
-- p: [15, 27]
-  k: '*'
-  l: [L1, L2]
-- p: [16, 28]
-  k: (
-  l: [L1, L2]
-- p: [17, 29]
-  k: )
-  l: [L1, L2]
-- p: [7, 19]
-  k: {h: '-', s: _}
-  l: [L1, L2, Fn]
-- p: [8, 20]
-  k: {h: '=', s: +}
-  l: [L1, L2, Fn]
-- p: [9, 21]
-  k: {t: /, s: '?'}
-  l: [L1, L2, Fn]
 - p: [6, 18]
   k: $$mdi:transfer-up$$
   l: [L1, L2, Fn]
 - p: [18, 30]
   k: $$mdi:transfer-down$$
   l: [L1, L2, Fn]
-- p: [19, 31]
-  k: {h: '[', s: '{'}
-  l: [L1, L2, Fn]
-- p: [20, 32]
-  k: {h: ']', s: '}'}
-  l: [L1, L2, Fn]
-- p: [21, 33]
-  k: {h: \, s: '|'}
-  l: [L1, L2, Fn]
 - p: [19, 20]
   k: $$mdi:keyboard-esc$$
   l: [L1, L2, Fn]
-- p: [21, 22]
-  k: '"'
-  l: [L1, L2]
 - p: [30, 31]
   k: $$mdi:selection-drag$$
   l: [Fn]
@@ -219,3 +177,5 @@ combos:
 - p: [6, 7, 8]
   k: $$mdi:play-pause$$
   l: [L1, L2, Fn]
+  a: top
+  o: 0.03

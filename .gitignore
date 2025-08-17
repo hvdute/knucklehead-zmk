@@ -6,3 +6,4 @@ tools/
 .west/
 .DS_Store
 .venv/
+.aider*
