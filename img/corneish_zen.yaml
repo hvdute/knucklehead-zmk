@@ -41,8 +41,8 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:keyboard-space$$', h: L2}
   - {t: '$$mdi:keyboard-return$$', h: L2}
-  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - {t: '$$mdi:alpha-b-box$$', h: '$$mdi:keyboard-tab$$'}
   L2:
   - '&studio_unlock'
   - {t: '1', s: '!'}
