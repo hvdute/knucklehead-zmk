@@ -569,7 +569,7 @@ path.combo {
 </g>
 <g transform="translate(40, 150)" class="key keypos-12">
 <rect rx="5" ry="5" x="-38" y="-38" width="75" height="75" class="key"/>
-<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:keyboard-tab"/>
+<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:keyboard-esc"/>
 <use href="#mdi:apple-keyboard-control" xlink:href="#mdi:apple-keyboard-control" x="-8" y="18" height="16" width="16.0" class="key hold glyph mdi:apple-keyboard-control"/>
 </g>
 <g transform="translate(120, 150)" class="key keypos-13">
@@ -877,8 +877,7 @@ path.combo {
 </g>
 <g transform="translate(1160, 150)" class="key keypos-23">
 <rect rx="5" ry="5" x="-38" y="-38" width="75" height="75" class="key"/>
-<text x="0" y="0" class="key tap">`</text>
-<text x="0" y="-34" class="key shifted">~</text>
+<use href="#mdi:keyboard-tab" xlink:href="#mdi:keyboard-tab" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:keyboard-tab"/>
 </g>
 <g transform="translate(40, 230)" class="key trans keypos-24">
 <rect rx="5" ry="5" x="-38" y="-38" width="75" height="75" class="key trans"/>
