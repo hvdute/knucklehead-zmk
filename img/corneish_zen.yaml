@@ -106,9 +106,9 @@ layers:
   - {t: F9, h: '$$mdi:apple-keyboard-command$$'}
   - {t: F10, h: '$$mdi:triangle$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp LCLK'
+  - '&mmv move_up'
+  - '&mkp RCLK'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', h: '$$mdi:progress-download$$', type: bootloader}
   - {t: '$$mdi:close-box$$', h: Fn}
@@ -118,9 +118,9 @@ layers:
   - F14
   - F15
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mmv move_left'
+  - '&mmv move_down'
+  - '&mmv move_right'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:close-box$$', h: Fn}
   - $$mdi:brightness-7$$
@@ -179,3 +179,6 @@ combos:
   l: [L1, L2, Fn]
   a: top
   o: 0.03
+- p: [19, 21]
+  k: '&mkp MCLK'
+  l: [Fn]
