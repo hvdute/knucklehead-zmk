@@ -71,5 +71,7 @@
     /* Mouse emulation on right hand */
     // middle click
     COMBO(middleclick, &mkp MCLK, 19 21, Fn, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(leftclick, &mkp LCLK, 19 8, Fn, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    COMBO(rightclick, &mkp RCLK, 8 21, Fn, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
   };
 };
