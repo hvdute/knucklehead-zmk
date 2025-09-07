@@ -107,7 +107,7 @@ layers:
   - {t: F10, h: '$$mdi:triangle$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp LCLK'
-  - '&mmv move_up'
+  - '&mmv MOVE_UP'
   - '&mkp RCLK'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', h: '$$mdi:progress-download$$', type: bootloader}
@@ -118,9 +118,9 @@ layers:
   - F14
   - F15
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mmv move_left'
-  - '&mmv move_down'
-  - '&mmv move_right'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:close-box$$', h: Fn}
   - $$mdi:brightness-7$$

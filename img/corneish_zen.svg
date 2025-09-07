@@ -1094,7 +1094,7 @@ path.combo {
 <g transform="translate(920, 120)" class="key keypos-20">
 <rect rx="5" ry="5" x="-38" y="-38" width="75" height="75" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-2.5em" style="font-size: 71%">&amp;mmv</tspan><tspan x="0" dy="5.0em" style="font-size: 71%">move_up</tspan>
+<tspan x="0" dy="-2.5em" style="font-size: 71%">&amp;mmv</tspan><tspan x="0" dy="5.0em" style="font-size: 71%">MOVE_UP</tspan>
 </text>
 </g>
 <g transform="translate(1000, 130)" class="key keypos-21">
@@ -1145,19 +1145,19 @@ path.combo {
 <g transform="translate(840, 210)" class="key keypos-31">
 <rect rx="5" ry="5" x="-38" y="-38" width="75" height="75" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-2.5em" style="font-size: 62%">&amp;mmv</tspan><tspan x="0" dy="5.0em" style="font-size: 62%">move_le…</tspan>
+<tspan x="0" dy="-2.5em" style="font-size: 62%">&amp;mmv</tspan><tspan x="0" dy="5.0em" style="font-size: 62%">MOVE_LE…</tspan>
 </text>
 </g>
 <g transform="translate(920, 200)" class="key keypos-32">
 <rect rx="5" ry="5" x="-38" y="-38" width="75" height="75" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-2.5em" style="font-size: 62%">&amp;mmv</tspan><tspan x="0" dy="5.0em" style="font-size: 62%">move_do…</tspan>
+<tspan x="0" dy="-2.5em" style="font-size: 62%">&amp;mmv</tspan><tspan x="0" dy="5.0em" style="font-size: 62%">MOVE_DO…</tspan>
 </text>
 </g>
 <g transform="translate(1000, 210)" class="key keypos-33">
 <rect rx="5" ry="5" x="-38" y="-38" width="75" height="75" class="key"/>
 <text x="0" y="0" class="key tap">
-<tspan x="0" dy="-2.5em" style="font-size: 62%">&amp;mmv</tspan><tspan x="0" dy="5.0em" style="font-size: 62%">move_ri…</tspan>
+<tspan x="0" dy="-2.5em" style="font-size: 62%">&amp;mmv</tspan><tspan x="0" dy="5.0em" style="font-size: 62%">MOVE_RI…</tspan>
 </text>
 </g>
 <g transform="translate(1080, 230)" class="key trans keypos-34">
