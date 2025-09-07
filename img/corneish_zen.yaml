@@ -105,7 +105,7 @@ layers:
   - {t: F8, h: '$$mdi:apple-keyboard-option$$'}
   - {t: F9, h: '$$mdi:apple-keyboard-command$$'}
   - {t: F10, h: '$$mdi:triangle$$'}
-  - '&msc SCRL_UP'
+  - '&msc SCRL_DOWN'
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_UP'
   - '&mmv MOVE_RIGHT'
@@ -117,11 +117,11 @@ layers:
   - F13
   - F14
   - F15
-  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
   - '&mkp LCLK'
   - '&mmv MOVE_DOWN'
   - '&mkp RCLK'
-  - '&msc SCRL_RIGHT'
+  - '&msc SCRL_LEFT'
   - {t: '$$mdi:close-box$$', h: Fn}
   - $$mdi:brightness-7$$
   - $$mdi:brightness-5$$
