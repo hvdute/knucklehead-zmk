@@ -56,8 +56,8 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '6', s: ^}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '6', h: '$$mdi:apple-keyboard-shift$$', s: ^}
   - {t: '7', h: '$$mdi:apple-keyboard-control$$', s: '&'}
   - {t: '8', h: '$$mdi:apple-keyboard-option$$', s: '*'}
   - {t: '9', h: '$$mdi:apple-keyboard-command$$', s: (}
@@ -66,7 +66,7 @@ layers:
   - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$', type: backspace}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
