@@ -14,6 +14,7 @@ docker volume create --driver local -o o=bind -o type=none \
 
 4. run dev container from build images with our zmk configs:
 ```bash
+cd ~/Workspaces/various/keyboards/zmk
 docker run -it --rm \
   --workdir /workspaces/zmk \
   -v "$(pwd):/workspaces/zmk" \

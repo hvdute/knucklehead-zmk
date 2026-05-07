@@ -1,8 +1,8 @@
 include:
-  # - board: corneish_zen_v2_left
-  # - board: corneish_zen_v2_right
-  - board: nice_nano_v2
+  # - board: corneish_zen_left//zmk
+  # - board: corneish_zen_right//zmk
+  - board: nice_nano@2.0.0//zmk
     shield: corne_left
     snippet: studio-rpc-usb-uart
-  - board: nice_nano_v2
+  - board: nice_nano@2.0.0//zmk
     shield: corne_right
