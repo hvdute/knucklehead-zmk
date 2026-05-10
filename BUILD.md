@@ -30,14 +30,26 @@ west config manifest.file config/west.yml
 west update
 ```
 
-6. build firmware:
-```bash
+# 6. build firmware:
+```
+# Note: Added -DSNIPPET="studio-rpc-usb-uart" to enable ZMK Studio over USB
 cd /workspaces/zmk
 for side in left right; do
+  SNIPPET_ARG=""
+  if [ "$side" = "left" ]; then
+    SNIPPET_ARG="-DSNIPPET=studio-rpc-usb-uart"
+  fi
   west build -p -s app -b nice_nano//zmk -d "build/$side" -- \
     -DSHIELD="corne_$side" \
-    -DZMK_CONFIG="/workspaces/zmk-config/config"
+    -DZMK_CONFIG="/workspaces/zmk-config/config" \
+    $SNIPPET_ARG
 done
+
+# copy firmware files to root dir for convenient
+mkdir -p corne-build-outputs/
+cp build/left/zephyr/zmk.uf2 corne-build-outputs/corne_zmk_left.uf2
+cp build/right/zephyr/zmk.uf2 corne-build-outputs/corne_zmk_right.uf2
+
 ```
 
 7. flashing:
