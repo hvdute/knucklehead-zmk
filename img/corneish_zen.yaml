@@ -25,7 +25,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-control$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
   - {t: '''', s: '"'}
-  - {t: Fn, h: '$$mdi:close-box$$'}
+  - Fn
   - Z
   - X
   - C
@@ -36,7 +36,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: Fn, h: '$$mdi:close-box$$'}
+  - {t: Fn, h: toggle}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
   - {t: '$$mdi:keyboard-space$$', h: L2}
@@ -111,7 +111,7 @@ layers:
   - '&mmv MOVE_RIGHT'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', h: '$$mdi:progress-download$$', type: bootloader}
-  - {t: '$$mdi:close-box$$', h: Fn}
+  - {t: L1, h: toggle, type: held}
   - F11
   - F12
   - F13
@@ -122,7 +122,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&msc SCRL_RIGHT'
   - '&msc SCRL_LEFT'
-  - {t: '$$mdi:close-box$$', h: Fn}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:brightness-7$$
   - $$mdi:brightness-5$$
   - {t: '$$mdi:close-box$$', h: L2}

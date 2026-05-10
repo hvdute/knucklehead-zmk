@@ -632,8 +632,7 @@ path.combo {
 <rect rx="5" ry="5" x="-38" y="-38" width="75" height="75" class="key"/>
 <a href="#Fn">
 <text x="0" y="0" class="key tap layer-activator">Fn</text>
-</a><use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-8" y="18" height="16" width="16.0" class="key hold glyph mdi:close-box"/>
-</g>
+</a></g>
 <g transform="translate(120, 230)" class="key keypos-25">
 <rect rx="5" ry="5" x="-38" y="-38" width="75" height="75" class="key"/>
 <text x="0" y="0" class="key tap">Z</text>
@@ -681,7 +680,7 @@ path.combo {
 <rect rx="5" ry="5" x="-38" y="-38" width="75" height="75" class="key"/>
 <a href="#Fn">
 <text x="0" y="0" class="key tap layer-activator">Fn</text>
-</a><use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-8" y="18" height="16" width="16.0" class="key hold glyph mdi:close-box"/>
+</a><text x="0" y="34" class="key hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 <g transform="translate(320, 293)" class="key keypos-36">
 <rect rx="5" ry="5" x="-38" y="-38" width="75" height="75" class="key"/>
@@ -1115,12 +1114,12 @@ path.combo {
 <use href="#mdi:backup-restore" xlink:href="#mdi:backup-restore" x="-11" y="-11" height="22" width="22.0" class="key bootloader tap glyph mdi:backup-restore"/>
 <use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="-8" y="18" height="16" width="16.0" class="key bootloader hold glyph mdi:progress-download"/>
 </g>
-<g transform="translate(40, 230)" class="key keypos-24">
-<rect rx="5" ry="5" x="-38" y="-38" width="75" height="75" class="key"/>
-<use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:close-box"/>
-<a href="#Fn">
-<text x="0" y="34" class="key hold layer-activator">Fn</text>
-</a></g>
+<g transform="translate(40, 230)" class="key held keypos-24">
+<rect rx="5" ry="5" x="-38" y="-38" width="75" height="75" class="key held"/>
+<a href="#L1">
+<text x="0" y="0" class="key held tap layer-activator">L1</text>
+</a><text x="0" y="34" class="key held hold"><tspan style="font-size: 83%">toggle</tspan></text>
+</g>
 <g transform="translate(120, 230)" class="key keypos-25">
 <rect rx="5" ry="5" x="-38" y="-38" width="75" height="75" class="key"/>
 <text x="0" y="0" class="key tap">F11</text>
@@ -1169,12 +1168,10 @@ path.combo {
 <tspan x="0" dy="-2.5em" style="font-size: 62%">&amp;msc</tspan><tspan x="0" dy="5.0em" style="font-size: 62%">SCRL_LE…</tspan>
 </text>
 </g>
-<g transform="translate(1160, 230)" class="key keypos-35">
-<rect rx="5" ry="5" x="-38" y="-38" width="75" height="75" class="key"/>
-<use href="#mdi:close-box" xlink:href="#mdi:close-box" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:close-box"/>
-<a href="#Fn">
-<text x="0" y="34" class="key hold layer-activator">Fn</text>
-</a></g>
+<g transform="translate(1160, 230)" class="key trans keypos-35">
+<rect rx="5" ry="5" x="-38" y="-38" width="75" height="75" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-11" y="-11" height="22" width="22.0" class="key trans tap glyph mdi:transfer"/>
+</g>
 <g transform="translate(320, 293)" class="key keypos-36">
 <rect rx="5" ry="5" x="-38" y="-38" width="75" height="75" class="key"/>
 <use href="#mdi:brightness-7" xlink:href="#mdi:brightness-7" x="-11" y="-11" height="22" width="22.0" class="key tap glyph mdi:brightness-7"/>
