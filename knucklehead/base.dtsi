@@ -6,8 +6,8 @@
 #include <dt-bindings/zmk/outputs.h>
 
 // mouse emulation configs
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 3000  // Increased for high-res/smallest scale macOS
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 40    // Faster scrolling for macOS
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 2500  // Increased for high-res/smallest scale macOS
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // Faster scrolling for macOS
 #include <dt-bindings/zmk/pointing.h>
 
 // Layers
