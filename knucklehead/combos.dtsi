@@ -34,15 +34,17 @@
     /* COMBO(lpar, &kp LPAR, 16 28, L1 L2, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS) */
     /* COMBO(rpar, &kp RPAR, 17 29, L1 L2, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS) */
 
-    // left - backslash diagonal - opening pairs
-    COMBO(lbkt_slash, &kp LBKT, 3 16, L1 L2, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-    
+    // left hand - opening bracket [
+    COMBO(lbkt, &kp LBKT, 3 16, L1 L2, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    // right hand - closing bracket ]
+    COMBO(rbkt, &kp RBKT, 19 8, L1 L2, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+
+    // left hand - backslash \
     COMBO(backslash, &kp BACKSLASH, 4 17, L1 L2, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
+    // right hand - pipe |
+    COMBO(pipe, &kp PIPE, 7 18, L1 L2, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
 
-    // right - forward slash diagonal - closing pairs
-    COMBO(rbkt_slash, &kp RBKT, 19 8, L1 L2, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS)
-
-    // Right 
+    // Right hand - nav 
     /* COMBO(minus, &kp MINUS, 7 19, L1 L2 Fn, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS) */
     /* COMBO(equal, &kp EQUAL, 8 20, L1 L2 Fn, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS) */
     /* COMBO(slash, &kp SLASH, 9 21, L1 L2 Fn, COMBO_TERM_DEFAULT, COMBO_QUICK_TAP_MS) */
