@@ -131,13 +131,16 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [3, 16]
-  k: {t: '[', s: '{'}
+  k: {h: '[', s: '{'}
+  l: [L1, L2]
+- p: [19, 8]
+  k: {h: ']', s: '}'}
   l: [L1, L2]
 - p: [4, 17]
   k: {h: \, s: '|'}
   l: [L1, L2]
-- p: [19, 8]
-  k: {t: ']', s: '}'}
+- p: [7, 18]
+  k: '|'
   l: [L1, L2]
 - p: [6, 18]
   k: $$mdi:transfer-up$$
