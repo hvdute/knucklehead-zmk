@@ -64,8 +64,32 @@
     - hold: shift
 
     From: https://github.com/urob/zmk-config/
+
+    IMPORTANT: `zmk,behavior-mod-morph` keeps ONE `pressed_binding` per behavior
+    instance (per DT node), not per key position, and its release handler does not
+    check which position is being released. Binding the same node to two keys and
+    pressing both with overlapping presses makes the release land on the second
+    position, so the `&sk` inside can never be released -> shift latched in the HID
+    report until the keyboard is reset.
+
+    So every key that uses a smart shift needs its OWN instance (see _l / _r).
+    Never bind one smart shift node to two keys.
     */
     /omit-if-no-ref/ smart_shift: smart_shift {
+      compatible = "zmk,behavior-mod-morph";
+      bindings = <&sk RSHFT>, <&caps_word>;
+      mods = <(MOD_RSFT)>;
+      #binding-cells = <0>;
+    };
+
+    /omit-if-no-ref/ smart_shift_l: smart_shift_l {
+      compatible = "zmk,behavior-mod-morph";
+      bindings = <&sk RSHFT>, <&caps_word>;
+      mods = <(MOD_RSFT)>;
+      #binding-cells = <0>;
+    };
+
+    /omit-if-no-ref/ smart_shift_r: smart_shift_r {
       compatible = "zmk,behavior-mod-morph";
       bindings = <&sk RSHFT>, <&caps_word>;
       mods = <(MOD_RSFT)>;
