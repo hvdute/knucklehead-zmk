@@ -6,9 +6,11 @@
 
 #include "../knucklehead/base.dtsi"
 
-/ {
-  chosen {
-    zmk,matrix_transform = &default_transform;
-  };
-};
+/*
+ * No `chosen { zmk,matrix_transform = ... }` here on purpose: selecting a bare
+ * matrix transform disables ZMK physical layouts, which makes CONFIG_ZMK_STUDIO
+ * fail to build (BUILD_ASSERT in physical_layouts.c). The Corne-ish Zen board
+ * already chooses `zmk,physical-layout = &foostan_corne_6col_layout` and maps it
+ * to `&default_transform`, so the matrix mapping is identical.
+ */
 
