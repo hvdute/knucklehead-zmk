@@ -1,4 +1,4 @@
-layout: {zmk_keyboard: corneish_zen, layout_name: default_transform}
+layout: {zmk_keyboard: corneish_zen}
 layers:
   L1:
   - {t: '`', s: '~'}
